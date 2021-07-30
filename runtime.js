@@ -57,7 +57,7 @@ if (typeof Object.getPrototypeOf !== "function")
 			x = x | x >> i;
 		}
 		return x + 1;
-	}
+	};
 	cr.abs = function (x)
 	{
 		return (x < 0 ? -x : x);
@@ -1086,7 +1086,7 @@ if (typeof Object.getPrototypeOf !== "function")
 		var i, i2, imod, len = this.pts_count;
 		var a1x = this.bboxLeft - 110;
 		var a1y = this.bboxTop - 101;
-		var a3x = this.bboxRight + 131
+		var a3x = this.bboxRight + 131;
 		var a3y = this.bboxBottom + 120;
 		var b1x, b1y, b2x, b2y;
 		var count1 = 0, count2 = 0;
